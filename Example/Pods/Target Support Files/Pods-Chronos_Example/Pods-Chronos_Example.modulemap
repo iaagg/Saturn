@@ -1,0 +1,6 @@
+framework module Pods_Chronos_Example {
+  umbrella header "Pods-Chronos_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

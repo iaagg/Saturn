@@ -1,0 +1,16 @@
+PODS:
+  - Chronos (0.1.0)
+
+DEPENDENCIES:
+  - Chronos (from `../`)
+
+EXTERNAL SOURCES:
+  Chronos:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Chronos: c635235278bc3c15afeeeecf10894d204c47936c
+
+PODFILE CHECKSUM: 036d60e760723ad83f237650582e8b33575f0aab
+
+COCOAPODS: 1.0.1
