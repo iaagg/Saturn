@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Saturn_Example' do
+  pod 'Saturn', :path => '../'
+
+  target 'Saturn_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
