@@ -1,0 +1,16 @@
+PODS:
+  - Saturn (0.1.0)
+
+DEPENDENCIES:
+  - Saturn (from `../`)
+
+EXTERNAL SOURCES:
+  Saturn:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Saturn: 15333c4aa1256c80607e2b6648176a6521c10855
+
+PODFILE CHECKSUM: 742b6858894c2c4d5f86a479ab62b1dd65543a6d
+
+COCOAPODS: 1.1.0.rc.2
