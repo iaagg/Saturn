@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'Chronos_Example' do
-  pod 'Chronos', :path => '../'
-
+  pod 'Chronos', :path => '../
+'
   target 'Chronos_Tests' do
     inherit! :search_paths
 
