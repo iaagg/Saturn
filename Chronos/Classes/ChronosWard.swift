@@ -11,7 +11,7 @@ import UIKit
 class ChronosWard: NSObject {
     
     var saveNotificationPushTimer: Timer?
-    var timerPeriod: Double = 60*5 //Every 5 minutes for default
+    var saveTimerPeriod: Double = 60*2.5 //Every 2.5 minutes for default
 
     class func ward() -> ChronosWard {
         struct Static {
@@ -21,8 +21,16 @@ class ChronosWard: NSObject {
         return Static.instance
     }
     
-    func startSavingSchedule() {
-        self.saveNotificationPushTimer = Timer.scheduledTimer(timeInterval: timerPeriod, target: ChronosKeeper.keeper(), selector: #selector(ChronosKeeper.saveAtomicTime), userInfo: nil, repeats: true)
+    func startSavingSchedule(withInterval interval: Double?) {
+        if let unwrappedInterval = interval {
+            saveTimerPeriod = unwrappedInterval
+        }
+        
+        if let timer = self.saveNotificationPushTimer {
+            timer.invalidate()
+        }
+        
+        self.saveNotificationPushTimer = Timer.scheduledTimer(timeInterval: saveTimerPeriod, target: ChronosKeeper.keeper(), selector: #selector(ChronosKeeper.saveAtomicTime), userInfo: nil, repeats: true)
     }
     
     deinit {

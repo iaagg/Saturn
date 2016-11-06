@@ -9,9 +9,15 @@
 import UIKit
 
 public enum DateCraftingResultType {
+    
+    //In this case Chronos has calculated time properly and you can rely on it.
     case CraftedDateIsReliable
+    
+    //In this case Chronos tried to calculate time properly, but there is a chance that it is not accurate.
     case CraftedDateIsUnreliable
-    case CraftingReliableDateIsInpossible
+    
+    //In this case Chronos can't count time properly due to some reasons. You should try to make a sync point to make time counting possible.
+    case CraftingReliableDateIsImpossible
 }
 
 class ChronosCounter: NSObject {
@@ -41,9 +47,9 @@ class ChronosCounter: NSObject {
                 calculatedAtomicTime = addUnsyncTimeExeptLast(toTime: calculatedAtomicTime)
                 calculatedAtomicTime += currentAtomicTime;
                 
-                //We don't have any unsynced data ->
-                //
-                //  So |Current atomic time since reboot| is actual
+            //We don't have any unsynced data ->
+            //
+            //  So |Current atomic time since reboot| is actual
             } else {
                 calculatedAtomicTime = currentAtomicTime
             }

@@ -10,6 +10,10 @@ import UIKit
 
 class ChronosPsychic: NSObject {
     
+    class func saveSyncPoint(_ time: Double) {
+        syncTimeWithGlobalWebTime(time)
+    }
+    
     class func syncTimeWithGlobalWebTime(_ time: Double) {
         ChronosJustice.justice().verdict = .DeviceWasNotRebooted
         let atomicTime = ChronosTimeMine.getAtomicTime()
@@ -54,6 +58,7 @@ class ChronosPsychic: NSObject {
                     let dateString: String = headers["Date"] as! String
                     var formatter = DateFormatter()
                     formatter.dateFormat = "EEE',' dd MMM yyyy HH:mm:ss z"
+                    formatter.locale = Locale(identifier: "en_US")
                     let date = formatter.date(from: dateString)
                     if let time: TimeInterval = date?.timeIntervalSince1970 {
                         

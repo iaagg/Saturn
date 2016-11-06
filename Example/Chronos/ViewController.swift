@@ -7,18 +7,35 @@
 //
 
 import UIKit
+import Chronos
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var deviceTimeLabel: UILabel!
+    @IBOutlet weak var chronosTimeLabel: UILabel!
+    var dateFormatter: DateFormatter!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd.MM.yyyy HH.mm.ss"
+        fillLabels()
+    }
+    
+    func fillLabels() {
+        let deviceDate = Date()
+        let deviceDateString = dateFormatter.string(from: deviceDate)
+        deviceTimeLabel.text = deviceDateString
+        
+        Chronos.date { (date, result) in
+            let chronosDateString = dateFormatter.string(from: date)
+            chronosTimeLabel.text = chronosDateString
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func refreshButtonTapped(_ sender: AnyObject) {
+        fillLabels()
     }
-
+    
 }
 

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Chronos'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Chronos provides a mechanism for time synchronization.'
 
   s.description      = <<-DESC

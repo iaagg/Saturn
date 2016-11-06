@@ -43,9 +43,9 @@ class ChronosJustice: NSObject {
             deviceRebooted = currentAtomicTime < lastUnsyncedTime;
             let rebootCount: Int = deviceRebooted ? Int((arrayOfUnsyncedBootsAtomicTime.count)+1) : Int((arrayOfUnsyncedBootsAtomicTime.count))
             
-            //If we don't have any unsynced (no reboot was earlier) ->
-            //
-            //  So compare to last synced boot time
+        //If we don't have any unsynced (no reboot was earlier) ->
+        //
+        //  So compare to last synced boot time
         } else {
             let lastAtomicTime: Double = chronosData.lastSyncedBootAtomicTime
             deviceRebooted = currentAtomicTime < lastAtomicTime;

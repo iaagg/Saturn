@@ -19,10 +19,6 @@ class ChronosKeeper: NSObject {
         return Static.instance
     }
     
-    deinit {
-        NotificationCenter.default.removeObserver(self)
-    }
-    
     func saveAtomicTime() {
         let atomicTime: Double
         let chronosData = ChronosStorage.storage().chronosData
