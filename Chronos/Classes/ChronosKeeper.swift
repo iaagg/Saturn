@@ -46,7 +46,6 @@ class ChronosKeeper: NSObject {
                 updateLastUnsyncedBootTime(atomicTime: atomicTime)
             }
             break
-        default: break
         }
     }
     

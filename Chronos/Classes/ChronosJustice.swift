@@ -32,8 +32,8 @@ class ChronosJustice: NSObject {
     func checkForRebootStatus() {
         var deviceRebooted: Bool = false
         let currentAtomicTime: Double = ChronosTimeMine.getAtomicTime()
-        guard let chronosData: ChronosDataObject = ChronosStorage.storage().chronosData else {}
-        guard let arrayOfUnsyncedBootsAtomicTime: NSArray = chronosData.arrayOfUnsyncedBootsAtomicTime else { }
+        let chronosData: ChronosDataObject = ChronosStorage.storage().chronosData
+        let arrayOfUnsyncedBootsAtomicTime: NSArray = chronosData.arrayOfUnsyncedBootsAtomicTime
         
         //If we have any unsynced boot time (reboot was already before sync) ->
         //
@@ -41,7 +41,6 @@ class ChronosJustice: NSObject {
         if (arrayOfUnsyncedBootsAtomicTime.count > 0) {
             let lastUnsyncedTime: Double = (arrayOfUnsyncedBootsAtomicTime.lastObject as! NSNumber).doubleValue
             deviceRebooted = currentAtomicTime < lastUnsyncedTime;
-            let rebootCount: Int = deviceRebooted ? Int((arrayOfUnsyncedBootsAtomicTime.count)+1) : Int((arrayOfUnsyncedBootsAtomicTime.count))
             
         //If we don't have any unsynced (no reboot was earlier) ->
         //

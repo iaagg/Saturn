@@ -58,7 +58,6 @@ class ChronosCounter: NSObject {
             calculatedAtomicTime = currentAtomicTime
             resultType = .CraftedDateIsUnreliable
             break
-        default: break
         }
         
         result(calculatedAtomicTime, resultType)
@@ -71,7 +70,7 @@ class ChronosCounter: NSObject {
         
         if chronosData.arrayOfUnsyncedBootsAtomicTime.count > 0 {
             
-            for (index, value) in chronosData.arrayOfUnsyncedBootsAtomicTime.enumerated() {
+            for (_, value) in chronosData.arrayOfUnsyncedBootsAtomicTime.enumerated() {
                 receivedTime += (value as! NSNumber).doubleValue
             }
         }
@@ -87,7 +86,7 @@ class ChronosCounter: NSObject {
         if chronosData.arrayOfUnsyncedBootsAtomicTime.count > 0 {
             let lastUnsyncTimeIndex: NSInteger = chronosData.arrayOfUnsyncedBootsAtomicTime.count - 1
             
-            for (index, value) in chronosData.arrayOfUnsyncedBootsAtomicTime.enumerated() {
+            for (index, _) in chronosData.arrayOfUnsyncedBootsAtomicTime.enumerated() {
                 
                 if index == lastUnsyncTimeIndex {
                     break;

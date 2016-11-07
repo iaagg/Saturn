@@ -81,7 +81,7 @@ public class ChronosDataObject: NSObject, NSCoding {
     
     override public func isEqual(_ object: Any?) -> Bool {
         if object is ChronosDataObject {
-            var chronosObject = object as! ChronosDataObject
+            let chronosObject = object as! ChronosDataObject
             
             let hashOne = ObjectIdentifier(self).hashValue
             let hashTwo = ObjectIdentifier(chronosObject).hashValue

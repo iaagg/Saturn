@@ -53,10 +53,10 @@ class ChronosPsychic: NSObject {
                     return
                 }
                 
-                if let httpResponse: HTTPURLResponse = response as! HTTPURLResponse {
+                if let httpResponse: HTTPURLResponse = response as? HTTPURLResponse {
                     let headers = httpResponse.allHeaderFields
                     let dateString: String = headers["Date"] as! String
-                    var formatter = DateFormatter()
+                    let formatter = DateFormatter()
                     formatter.dateFormat = "EEE',' dd MMM yyyy HH:mm:ss z"
                     formatter.locale = Locale(identifier: "en_US")
                     let date = formatter.date(from: dateString)

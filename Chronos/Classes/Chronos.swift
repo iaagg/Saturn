@@ -16,7 +16,6 @@ public class Chronos: NSObject {
      * @warning Before calling this method, chronos can't properly count time for you
      */
     public class func protect(ownServerProvided providedFlag: Bool) {
-        let cronosData: ChronosDataObject = ChronosStorage.storage().chronosData
         ChronosJustice.justice().checkForRebootStatus()
         ChronosWard.ward().startSavingSchedule(withInterval: nil)
         ChronosKeeper.keeper().saveAtomicTime()
