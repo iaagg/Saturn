@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import Chronos
+import Saturn
 
 var kMockAtomicTime = "kMockAtomicTime"
 
@@ -8,7 +8,7 @@ var ATOMIC_TIME_AFTER_REBOOT: Double = 100
 
 var ATOMIC_TIME_WITHOUT_REBOOT: Double = 7500
 
-extension ChronosTimeMine {
+extension SaturnTimeMine {
     
     class func getAtomicTime() -> Double {
         let rebootNeeded = UserDefaults.standard.bool(forKey: kMockAtomicTime)

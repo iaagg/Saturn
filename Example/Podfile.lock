@@ -1,16 +1,16 @@
 PODS:
-  - Chronos (0.1.0)
+  - Saturn (1.0.1)
 
 DEPENDENCIES:
-  - Chronos (from `../`)
+  - Saturn (from `../`)
 
 EXTERNAL SOURCES:
-  Chronos:
+  Saturn:
     :path: ../
 
 SPEC CHECKSUMS:
-  Chronos: c635235278bc3c15afeeeecf10894d204c47936c
+  Saturn: 8133a9b88083c81a94186a7ee2777e936067d608
 
-PODFILE CHECKSUM: 036d60e760723ad83f237650582e8b33575f0aab
+PODFILE CHECKSUM: 217a3ebde1f8d40ca9cd26b042defc6c9af2a5e6
 
 COCOAPODS: 1.1.0.rc.2

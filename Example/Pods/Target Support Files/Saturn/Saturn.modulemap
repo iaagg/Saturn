@@ -1,0 +1,6 @@
+framework module Saturn {
+  umbrella header "Saturn-umbrella.h"
+
+  export *
+  module * { export * }
+}
