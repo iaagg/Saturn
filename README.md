@@ -1,6 +1,6 @@
 # Saturn
 
-![enter image description here](https://s22.postimg.org/4zgl438wh/photo_2016_11_08_01_24_21.jpg)
+![enter image description here](https://s18.postimg.org/iwf3m0up5/IMG_2016_11_08_19_25_16.jpg)
 
 [![Version](https://img.shields.io/cocoapods/v/Saturn.svg?style=flat)](http://cocoapods.org/pods/Saturn)
 [![License](https://img.shields.io/cocoapods/l/Saturn.svg?style=flat)](http://cocoapods.org/pods/Saturn)
