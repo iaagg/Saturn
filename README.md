@@ -25,26 +25,26 @@ pod "Saturn"
 
 # Description
 
-**Saturn is a library which was made to provide you the possibility of retrieving reliable date and time despite the time set up on user's device.**
+**Saturn gives you reliable date despite of time on user's device.**
 
 # Setup
 
-To activate Saturn - call method below in applicationDidFinishLaunchingWithOptions method in the AppDelegate. 
+To activate Saturn - call method below in applicationDidFinishLaunchingWithOptions method in the AppDelegate.
 After this you will be able to ask Saturn to calculate reliable date and time for you.
-Pass ```true``` to ```ownServerProvided``` argument if you are going to synchronise Saturn with your own server time. 
+Pass ```true``` to ```ownServerProvided``` argument if you are going to synchronise Saturn with your own server time.
 
 ```SWIFT
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-Saturn.protect(ownServerProvided: false)
+  Saturn.protect(ownServerProvided: false)
 
-return true
+  return true
 }
 ```
 It also strongly recommended to perform saving of required time information bafore your application will be terminated:
 
 ```SWIFT
 func applicationWillTerminate(_ application: UIApplication) {
-Saturn.performSavingOfTimeData()
+  Saturn.performSavingOfTimeData()
 }
 ```
 
@@ -65,13 +65,13 @@ If Saturn was activated with ```protect``` method, you can always ask it to calc
 
 ```SWIFT
 Saturn.date { (date, craftResult) in
-print(date)
-print(craftResult)
+  print(date)
+  print(craftResult)
 }
 ```
 
 In provided closure you have a crafted by Saturn date and crafting result. Crafting result has an enum type and you can follow it in code to see the documentation.
-The main idea is that result can have **3 different values**, which tell you if can you rely on crafted date or not. 
+The main idea is that result can have **3 different values**, which tell you if can you rely on crafted date or not.
 
 1. type ``` CraftedDateIsReliable ``` means that you can rely on crafted date and use it in your app
 2. type ``` CraftedDateIsUnreliable ``` means that crafted date in most cases is correct, but sometimes it can be not. For example if user will perform several device reboots associated with changing device time and switching internet connection off - crafted date possibly might be incorrect. It will become reliable right after next successful synchronisation.
@@ -99,7 +99,7 @@ Saturn.tryToMakeNewSyncPoint()
 
 ## B. Periodical saving device's time information
 
-For more reliability and detecting device reboots Saturn requires periodically save some information from your device. All data is stored in NSUserDefaults. 
+For more reliability and detecting device reboots Saturn requires periodically save some information from your device. All data is stored in NSUserDefaults.
 By default Saturn performs periodical saving each 2.5 min. You can change this loop with your own period between savings with following method:
 
 ```SWIFT
