@@ -1,11 +1,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Saturn'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'Saturn provides a mechanism for time synchronization.'
 
   s.description      = <<-DESC
-Chronos is a library with convenient API which provides a mechanism of time and date sinchronization in your app with some remote server. With Chronos its possible to get real time and date even if user will change them on his device.
+Saturn is a library with convenient API which provides a mechanism of time and date sinchronization in your app with some remote server. With Chronos its possible to get real time and date even if user will change them on his device.
                        DESC
 
   s.homepage         = 'https://github.com/iaagg/Saturn'

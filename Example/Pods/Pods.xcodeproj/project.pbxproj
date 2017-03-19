@@ -7,103 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39A2ED38B53C065F76C7294B923C4F2D /* SaturnDateSmithy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B330F65D4C7136B3DAAC62895E272F7 /* SaturnDateSmithy.swift */; };
-		3A36C936B271E851AF6A33D640C79813 /* Saturn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB44A8812EB534CC8AA03CB55F829B2 /* Saturn-dummy.m */; };
-		418B826CD18488E3BB4C19887B15B0F8 /* Saturn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3C92B10D538E14D984C272D0C8B6D5 /* Saturn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CBE1FE3EA8910ADE6061170B40A91C9 /* Pods-Saturn_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749B71A0B00F05BB6575462BB3359285 /* Pods-Saturn_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		629650E6795EAD6DC7B5D126D350B900 /* SaturnCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A734877A8BB3D1E6692811AE0A7AE /* SaturnCounter.swift */; };
-		6AFF12E6A61308866F40177D8D179EF7 /* Pods-Saturn_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E9E42AB2F5F711114FB841A50D7C1C /* Pods-Saturn_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		730442D720AB63CA3671A6D489E7AF60 /* SaturnKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFB8D4C5C8D382BCAADEB0818934D61 /* SaturnKeeper.swift */; };
-		752141FE0771FB6A11DCDFB3F82DCDF5 /* SaturnJustice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F3AA3892C0473DDB9FA290DC6696D /* SaturnJustice.swift */; };
-		8819946D0FA51B54A5FA6FA184FE6E19 /* SaturnDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A5A045D5413EE72290920B987F175F /* SaturnDataObject.swift */; };
-		8DA5A598C17DB8E5D067C25681C4F669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A8F09EDB4DC1415C79F21BE0A510E958 /* SaturnTimeMine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB59DC9C6EFA74D9740EC2DE725D2C0 /* SaturnTimeMine.swift */; };
-		A93FE0CE62B5E6E6BC69FBFA645BD11A /* SaturnWard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B53695BD7065A5441584E71F0B7A3 /* SaturnWard.swift */; };
-		B0FB07ED1E4E848615B5E51C212B37C9 /* SaturnPsychic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE66BCAB347F002C35817B765624E80 /* SaturnPsychic.swift */; };
-		BF07E98499CEE72393969BCD9AE2FF55 /* Pods-Saturn_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D91EA6DFA5837B29E90B2137CF8BF /* Pods-Saturn_Example-dummy.m */; };
-		BF846C44FC0156E7B7A980AF9094D712 /* SaturnStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E56EFF68EA97A3D257266734A0C7E /* SaturnStorage.swift */; };
-		C352E2C11E15A05313292E4917BD9A0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C8B92D36D66F6555840BCC233BD9651D /* Saturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08713669FAC57C5E71838895C8F566CE /* Saturn.swift */; };
-		EE250887C58ECB8722EBED9FD6F0213E /* Pods-Saturn_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C322431E659BD60295DB3CF3140A8 /* Pods-Saturn_Tests-dummy.m */; };
-		FBF8FFC156341E527081F45E077DE79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1161D31B50386BF967702DF23B9F9109 /* SaturnWard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849FA993D2DA8EC622AFA6E45FB48F0 /* SaturnWard.swift */; };
+		1A1B91834ACD8B8F87ADB19D89BDA6E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		24B6F33E044AC30057BB4AC5DAC7919E /* SaturnJustice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2C90BF0076315A5BDEB0B4542C4519 /* SaturnJustice.swift */; };
+		38A9245DB94493213AD68DBA9A8D3639 /* Pods-Saturn_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 749B71A0B00F05BB6575462BB3359285 /* Pods-Saturn_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		393221A43A57816FFA51DE935EEF5D98 /* Pods-Saturn_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C322431E659BD60295DB3CF3140A8 /* Pods-Saturn_Tests-dummy.m */; };
+		3C2134639B565114BED199340FB239E0 /* SaturnTimeMine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C627EAFD0751BCB6720C9EB2DE006C2A /* SaturnTimeMine.swift */; };
+		4BD52102236310920473DE739513BAA1 /* KernelTimeMiner.c in Sources */ = {isa = PBXBuildFile; fileRef = B5B6B5428485B18C87455DD7C2AA9B68 /* KernelTimeMiner.c */; };
+		81254F294A056E218CB67D2CD1FEA5F6 /* Saturn.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BAAF86D1E7972CAD11C1B2D7CF3E49 /* Saturn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829EDDC2EC9E6F594100E98C75173E49 /* SaturnCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC097DDBA36C9FAAFA84DBC66BE5DEF1 /* SaturnCounter.swift */; };
+		A2B84AA149FA9236F68613E55B6AB8C4 /* SaturnDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D82585DA9B626897E0938916BFEF7 /* SaturnDataObject.swift */; };
+		AE065C5730CCB12CAD78567A79687E04 /* SaturnStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAD74B39204F0B3D35A46453F83FBF /* SaturnStorage.swift */; };
+		B019D944CB6F75ECC75FE522F3FFA8E1 /* SaturnKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308CFA48EADB8B030BC987FC2C5635E /* SaturnKeeper.swift */; };
+		B06EFC0D854D14A48A72873E59DE44C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BB29C2F7833FBB6EA70A36B71294AEEB /* Saturn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB44A8812EB534CC8AA03CB55F829B2 /* Saturn-dummy.m */; };
+		D082EDC3303D0FD00FFEB80C3EF18682 /* SaturnPsychic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D585EE816F8BF6B7B6CACAAB34AD3F /* SaturnPsychic.swift */; };
+		D57526A811E35052166767D2741A263E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D66DABD11FB46BDA88435732AFB24CAD /* KernelTimeMiner.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A230C63CA222B7D165984C07C9BD59 /* KernelTimeMiner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E996A3EC60C8AE2736CE5203A390338D /* Pods-Saturn_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B22D91EA6DFA5837B29E90B2137CF8BF /* Pods-Saturn_Example-dummy.m */; };
+		F5259A96DCD33665F72B909A6E08D54D /* SaturnDateSmithy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C22DFF822B0B837800F64C89E7CC0 /* SaturnDateSmithy.swift */; };
+		F8AAB5033B2B200E739A89694D571257 /* Saturn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3C92B10D538E14D984C272D0C8B6D5 /* Saturn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE1AC799A88223540F5ECF37703DF6E /* Saturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68691C088A697D1E2AB286E6C611E51C /* Saturn.swift */; };
+		FC6DD7624DB10447DB4F845CF08DCCB9 /* Pods-Saturn_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E9E42AB2F5F711114FB841A50D7C1C /* Pods-Saturn_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09443F7BAE400B9B8985648F1045A0C0 /* PBXContainerItemProxy */ = {
+		CACA49D9BE22D456BE500957300FCB5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 68C1C11EDB8EEEA97ADAAD2087827BE5;
+			remoteGlobalIDString = 053BF15D3C4C8EA19CBBCF2910EACCD0;
 			remoteInfo = Saturn;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02FBCF1D2B09E930B055C71D5B102420 /* Pods_Saturn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saturn_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08713669FAC57C5E71838895C8F566CE /* Saturn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Saturn.swift; sourceTree = "<group>"; };
-		0CE66BCAB347F002C35817B765624E80 /* SaturnPsychic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnPsychic.swift; sourceTree = "<group>"; };
+		02FBCF1D2B09E930B055C71D5B102420 /* Pods_Saturn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Saturn_Example.framework; path = "Pods-Saturn_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D585EE816F8BF6B7B6CACAAB34AD3F /* SaturnPsychic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnPsychic.swift; sourceTree = "<group>"; };
 		0E9B82F160DA00C0AD1BAF3C18F48A54 /* Pods-Saturn_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Saturn_Example-frameworks.sh"; sourceTree = "<group>"; };
+		179C22DFF822B0B837800F64C89E7CC0 /* SaturnDateSmithy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnDateSmithy.swift; sourceTree = "<group>"; };
 		1AB44A8812EB534CC8AA03CB55F829B2 /* Saturn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Saturn-dummy.m"; sourceTree = "<group>"; };
-		1BB59DC9C6EFA74D9740EC2DE725D2C0 /* SaturnTimeMine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnTimeMine.swift; sourceTree = "<group>"; };
-		1DFB8D4C5C8D382BCAADEB0818934D61 /* SaturnKeeper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnKeeper.swift; sourceTree = "<group>"; };
-		2263F9B64B7353880DCB91937924EC9C /* Pods-Saturn_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Saturn_Example.modulemap"; sourceTree = "<group>"; };
-		242E56EFF68EA97A3D257266734A0C7E /* SaturnStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnStorage.swift; sourceTree = "<group>"; };
+		2263F9B64B7353880DCB91937924EC9C /* Pods-Saturn_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Saturn_Example.modulemap"; sourceTree = "<group>"; };
 		24A1C7E66BB7C9766C44C3D92E773E26 /* Pods-Saturn_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Saturn_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2849FA993D2DA8EC622AFA6E45FB48F0 /* SaturnWard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnWard.swift; sourceTree = "<group>"; };
 		2C3EC4BF9B0EA346DDAB05DAEC361037 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490BA00DB8AC4E1C79C9D4A8F52F2833 /* Pods-Saturn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Saturn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		522B53695BD7065A5441584E71F0B7A3 /* SaturnWard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnWard.swift; sourceTree = "<group>"; };
-		5B330F65D4C7136B3DAAC62895E272F7 /* SaturnDateSmithy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnDateSmithy.swift; sourceTree = "<group>"; };
-		5F6F3AA3892C0473DDB9FA290DC6696D /* SaturnJustice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnJustice.swift; sourceTree = "<group>"; };
+		5DEAD74B39204F0B3D35A46453F83FBF /* SaturnStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnStorage.swift; sourceTree = "<group>"; };
 		6082B97B2E1B427CA9CC980F2279A00F /* Pods-Saturn_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Saturn_Example-resources.sh"; sourceTree = "<group>"; };
+		68691C088A697D1E2AB286E6C611E51C /* Saturn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Saturn.swift; sourceTree = "<group>"; };
 		6F36E6BC130E09AA199628751CB49535 /* Pods-Saturn_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Saturn_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F968422408666102C26D6C8BB16F4D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		741D821E4A0ACCB49E410212E268D516 /* Saturn.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Saturn.xcconfig; sourceTree = "<group>"; };
 		749B71A0B00F05BB6575462BB3359285 /* Pods-Saturn_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Saturn_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F2C90BF0076315A5BDEB0B4542C4519 /* SaturnJustice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnJustice.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94BAAF86D1E7972CAD11C1B2D7CF3E49 /* Saturn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Saturn.h; sourceTree = "<group>"; };
+		966D82585DA9B626897E0938916BFEF7 /* SaturnDataObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnDataObject.swift; sourceTree = "<group>"; };
 		9DCB5069216F1FC0554052E6A153380B /* Pods-Saturn_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Saturn_Tests-resources.sh"; sourceTree = "<group>"; };
 		9DD5D1589D6FFBEA4AD3A263795C4B8D /* Pods-Saturn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Saturn_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9E488C1E3E6FF361DA3221344B0DDED8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E9E42AB2F5F711114FB841A50D7C1C /* Pods-Saturn_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Saturn_Example-umbrella.h"; sourceTree = "<group>"; };
+		A308CFA48EADB8B030BC987FC2C5635E /* SaturnKeeper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnKeeper.swift; sourceTree = "<group>"; };
 		A41E2E0D60E3444BEB154CE511027585 /* Saturn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Saturn-prefix.pch"; sourceTree = "<group>"; };
-		A486837B936D1E7002F8F53544B2F43F /* Pods_Saturn_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saturn_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A486837B936D1E7002F8F53544B2F43F /* Pods_Saturn_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Saturn_Tests.framework; path = "Pods-Saturn_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3C92B10D538E14D984C272D0C8B6D5 /* Saturn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Saturn-umbrella.h"; sourceTree = "<group>"; };
-		AC91C2F7022EBB0E3F90026E2DCDD55A /* Saturn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Saturn.modulemap; sourceTree = "<group>"; };
+		AC91C2F7022EBB0E3F90026E2DCDD55A /* Saturn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Saturn.modulemap; sourceTree = "<group>"; };
 		B22D91EA6DFA5837B29E90B2137CF8BF /* Pods-Saturn_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Saturn_Example-dummy.m"; sourceTree = "<group>"; };
 		B23748A77B7380C55C7DC1742E067713 /* Pods-Saturn_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Saturn_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B5A230C63CA222B7D165984C07C9BD59 /* KernelTimeMiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KernelTimeMiner.h; sourceTree = "<group>"; };
+		B5B6B5428485B18C87455DD7C2AA9B68 /* KernelTimeMiner.c */ = {isa = PBXFileReference; includeInIndex = 1; path = KernelTimeMiner.c; sourceTree = "<group>"; };
+		C627EAFD0751BCB6720C9EB2DE006C2A /* SaturnTimeMine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnTimeMine.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC097DDBA36C9FAAFA84DBC66BE5DEF1 /* SaturnCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnCounter.swift; sourceTree = "<group>"; };
 		CE59B2F653A29D399EAFC3FE29276A60 /* Pods-Saturn_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Saturn_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D02C322431E659BD60295DB3CF3140A8 /* Pods-Saturn_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Saturn_Tests-dummy.m"; sourceTree = "<group>"; };
 		D6D7DD285BB615C5E6F4FC94016FDB44 /* Pods-Saturn_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Saturn_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5FA95EA32EDAFED75232D0A2079C26E /* Pods-Saturn_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Saturn_Tests.modulemap"; sourceTree = "<group>"; };
-		E7A5A045D5413EE72290920B987F175F /* SaturnDataObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnDataObject.swift; sourceTree = "<group>"; };
+		E5FA95EA32EDAFED75232D0A2079C26E /* Pods-Saturn_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Saturn_Tests.modulemap"; sourceTree = "<group>"; };
 		ED263017E8357294C23C542F1BBE26F3 /* Pods-Saturn_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Saturn_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FCDA7547F2E5064F18F4AD80E10275EB /* Saturn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Saturn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDA7547F2E5064F18F4AD80E10275EB /* Saturn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Saturn.framework; path = Saturn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB434B753CF2CA1C4618B508EE5FB4F /* Pods-Saturn_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Saturn_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF6A734877A8BB3D1E6692811AE0A7AE /* SaturnCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SaturnCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B32DA4E7D520015B62D9E38CD268EEA0 /* Frameworks */ = {
+		184862028D8DDF52A83D52A2357DFC22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA5A598C17DB8E5D067C25681C4F669 /* Foundation.framework in Frameworks */,
+				D57526A811E35052166767D2741A263E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E07F5D5C2F27CFA69385BBFAE0C4CA /* Frameworks */ = {
+		CF121E498457965925C0D6A150766D71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C352E2C11E15A05313292E4917BD9A0D /* Foundation.framework in Frameworks */,
+				B06EFC0D854D14A48A72873E59DE44C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C55C912D44368B5589FAEAE95E7C2C71 /* Frameworks */ = {
+		EA597D24D99E51522241944F6DF82BC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBF8FFC156341E527081F45E077DE79F /* Foundation.framework in Frameworks */,
+				1A1B91834ACD8B8F87ADB19D89BDA6E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +119,7 @@
 		015D27E2C8EE510BE3F6A8DC298DA8C8 /* Saturn */ = {
 			isa = PBXGroup;
 			children = (
-				417467786CE81DBC2E5C0B533CD5AFE5 /* Saturn */,
+				63E7845DA31AEC4306460CA702885A01 /* Saturn */,
 				6A7481200C5A1D9307B5CE594949F9BE /* Support Files */,
 			);
 			name = Saturn;
@@ -166,19 +172,12 @@
 			path = "Target Support Files/Pods-Saturn_Example";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		63E7845DA31AEC4306460CA702885A01 /* Saturn */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				80D673E27F79111CA1E9662155F36CA2 /* Classes */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		417467786CE81DBC2E5C0B533CD5AFE5 /* Saturn */ = {
-			isa = PBXGroup;
-			children = (
-				F4F074192AF38832B06BACBB5D63E908 /* Classes */,
-			);
+			name = Saturn;
 			path = Saturn;
 			sourceTree = "<group>";
 		};
@@ -196,6 +195,14 @@
 			path = "Example/Pods/Target Support Files/Saturn";
 			sourceTree = "<group>";
 		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +212,27 @@
 				22FE5C5EADCA5424E561E8278840F397 /* Products */,
 				A89861ABADF07F6657036430B561F41B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		80D673E27F79111CA1E9662155F36CA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5B6B5428485B18C87455DD7C2AA9B68 /* KernelTimeMiner.c */,
+				B5A230C63CA222B7D165984C07C9BD59 /* KernelTimeMiner.h */,
+				94BAAF86D1E7972CAD11C1B2D7CF3E49 /* Saturn.h */,
+				68691C088A697D1E2AB286E6C611E51C /* Saturn.swift */,
+				CC097DDBA36C9FAAFA84DBC66BE5DEF1 /* SaturnCounter.swift */,
+				966D82585DA9B626897E0938916BFEF7 /* SaturnDataObject.swift */,
+				179C22DFF822B0B837800F64C89E7CC0 /* SaturnDateSmithy.swift */,
+				8F2C90BF0076315A5BDEB0B4542C4519 /* SaturnJustice.swift */,
+				A308CFA48EADB8B030BC987FC2C5635E /* SaturnKeeper.swift */,
+				04D585EE816F8BF6B7B6CACAAB34AD3F /* SaturnPsychic.swift */,
+				5DEAD74B39204F0B3D35A46453F83FBF /* SaturnStorage.swift */,
+				C627EAFD0751BCB6720C9EB2DE006C2A /* SaturnTimeMine.swift */,
+				2849FA993D2DA8EC622AFA6E45FB48F0 /* SaturnWard.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		A89861ABADF07F6657036430B561F41B /* Targets Support Files */ = {
@@ -219,26 +247,9 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F4F074192AF38832B06BACBB5D63E908 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				08713669FAC57C5E71838895C8F566CE /* Saturn.swift */,
-				FF6A734877A8BB3D1E6692811AE0A7AE /* SaturnCounter.swift */,
-				E7A5A045D5413EE72290920B987F175F /* SaturnDataObject.swift */,
-				5B330F65D4C7136B3DAAC62895E272F7 /* SaturnDateSmithy.swift */,
-				5F6F3AA3892C0473DDB9FA290DC6696D /* SaturnJustice.swift */,
-				1DFB8D4C5C8D382BCAADEB0818934D61 /* SaturnKeeper.swift */,
-				0CE66BCAB347F002C35817B765624E80 /* SaturnPsychic.swift */,
-				242E56EFF68EA97A3D257266734A0C7E /* SaturnStorage.swift */,
-				1BB59DC9C6EFA74D9740EC2DE725D2C0 /* SaturnTimeMine.swift */,
-				522B53695BD7065A5441584E71F0B7A3 /* SaturnWard.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		F5B0B0315539E073CF0762615AD92453 /* Development Pods */ = {
@@ -252,57 +263,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2BF957B494F26390EB48234581E44EFC /* Headers */ = {
+		2D1F5E5583D012B81B3481509C6B9BA6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418B826CD18488E3BB4C19887B15B0F8 /* Saturn-umbrella.h in Headers */,
+				D66DABD11FB46BDA88435732AFB24CAD /* KernelTimeMiner.h in Headers */,
+				F8AAB5033B2B200E739A89694D571257 /* Saturn-umbrella.h in Headers */,
+				81254F294A056E218CB67D2CD1FEA5F6 /* Saturn.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60152B9AF775481C4C656296B4968A5D /* Headers */ = {
+		8D72C798F1E8A2D75A8D20B68F0E1F18 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CBE1FE3EA8910ADE6061170B40A91C9 /* Pods-Saturn_Tests-umbrella.h in Headers */,
+				FC6DD7624DB10447DB4F845CF08DCCB9 /* Pods-Saturn_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C02CCF0DD75085BA8B54CE4AEBA1EC4 /* Headers */ = {
+		F26D81D408583CC4D25A50631937B2DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AFF12E6A61308866F40177D8D179EF7 /* Pods-Saturn_Example-umbrella.h in Headers */,
+				38A9245DB94493213AD68DBA9A8D3639 /* Pods-Saturn_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		249D60D62177DBAD6157AE6FB0E84115 /* Pods-Saturn_Tests */ = {
+		053BF15D3C4C8EA19CBBCF2910EACCD0 /* Saturn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFBCC80D4B4A23380810B4D1AA8714EF /* Build configuration list for PBXNativeTarget "Pods-Saturn_Tests" */;
+			buildConfigurationList = 8A31098CBDC9FC2C252FBF906936AFA5 /* Build configuration list for PBXNativeTarget "Saturn" */;
 			buildPhases = (
-				7DEC213DD1BD14D043DCEC807851A378 /* Sources */,
-				B5E07F5D5C2F27CFA69385BBFAE0C4CA /* Frameworks */,
-				60152B9AF775481C4C656296B4968A5D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Saturn_Tests";
-			productName = "Pods-Saturn_Tests";
-			productReference = A486837B936D1E7002F8F53544B2F43F /* Pods_Saturn_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		68C1C11EDB8EEEA97ADAAD2087827BE5 /* Saturn */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2D8BE9FB6E6A91BEEB8A516EF92C797 /* Build configuration list for PBXNativeTarget "Saturn" */;
-			buildPhases = (
-				46F664D885C2A8B1A821F7C3FD0043BC /* Sources */,
-				B32DA4E7D520015B62D9E38CD268EEA0 /* Frameworks */,
-				2BF957B494F26390EB48234581E44EFC /* Headers */,
+				752FE5E524846FA92A2205F9CA1A033B /* Sources */,
+				EA597D24D99E51522241944F6DF82BC3 /* Frameworks */,
+				2D1F5E5583D012B81B3481509C6B9BA6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -313,22 +309,39 @@
 			productReference = FCDA7547F2E5064F18F4AD80E10275EB /* Saturn.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D2FA579CA40D799CF4D7D0D3A984BF47 /* Pods-Saturn_Example */ = {
+		0B61AE59876A9953A69C5B54D03E0D59 /* Pods-Saturn_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F78C60F65F808AC35C7F7AD355AF29E1 /* Build configuration list for PBXNativeTarget "Pods-Saturn_Example" */;
+			buildConfigurationList = B93DA8DFCE453C74C8F1AF12B3E4CEB6 /* Build configuration list for PBXNativeTarget "Pods-Saturn_Example" */;
 			buildPhases = (
-				50978EC0E12D34A7DD02A9ADBFCC4486 /* Sources */,
-				C55C912D44368B5589FAEAE95E7C2C71 /* Frameworks */,
-				7C02CCF0DD75085BA8B54CE4AEBA1EC4 /* Headers */,
+				90EFAB0FD2592F15443E5871C2EB298A /* Sources */,
+				184862028D8DDF52A83D52A2357DFC22 /* Frameworks */,
+				8D72C798F1E8A2D75A8D20B68F0E1F18 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E1E259C38ED3E814662D68FD13E4EDA /* PBXTargetDependency */,
+				390F7B56AFBF191338C03DF0A702EDB3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Saturn_Example";
 			productName = "Pods-Saturn_Example";
 			productReference = 02FBCF1D2B09E930B055C71D5B102420 /* Pods_Saturn_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B7F16C2EB235D0A670FFF8AFBBCCBE1 /* Pods-Saturn_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074C20C7129290FF7D762B92DB2C50D4 /* Build configuration list for PBXNativeTarget "Pods-Saturn_Tests" */;
+			buildPhases = (
+				08EA54A84DBA3E081C76AC2227332BC9 /* Sources */,
+				CF121E498457965925C0D6A150766D71 /* Frameworks */,
+				F26D81D408583CC4D25A50631937B2DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Saturn_Tests";
+			productName = "Pods-Saturn_Tests";
+			productReference = A486837B936D1E7002F8F53544B2F43F /* Pods_Saturn_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -352,61 +365,97 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2FA579CA40D799CF4D7D0D3A984BF47 /* Pods-Saturn_Example */,
-				249D60D62177DBAD6157AE6FB0E84115 /* Pods-Saturn_Tests */,
-				68C1C11EDB8EEEA97ADAAD2087827BE5 /* Saturn */,
+				0B61AE59876A9953A69C5B54D03E0D59 /* Pods-Saturn_Example */,
+				7B7F16C2EB235D0A670FFF8AFBBCCBE1 /* Pods-Saturn_Tests */,
+				053BF15D3C4C8EA19CBBCF2910EACCD0 /* Saturn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46F664D885C2A8B1A821F7C3FD0043BC /* Sources */ = {
+		08EA54A84DBA3E081C76AC2227332BC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A36C936B271E851AF6A33D640C79813 /* Saturn-dummy.m in Sources */,
-				C8B92D36D66F6555840BCC233BD9651D /* Saturn.swift in Sources */,
-				629650E6795EAD6DC7B5D126D350B900 /* SaturnCounter.swift in Sources */,
-				8819946D0FA51B54A5FA6FA184FE6E19 /* SaturnDataObject.swift in Sources */,
-				39A2ED38B53C065F76C7294B923C4F2D /* SaturnDateSmithy.swift in Sources */,
-				752141FE0771FB6A11DCDFB3F82DCDF5 /* SaturnJustice.swift in Sources */,
-				730442D720AB63CA3671A6D489E7AF60 /* SaturnKeeper.swift in Sources */,
-				B0FB07ED1E4E848615B5E51C212B37C9 /* SaturnPsychic.swift in Sources */,
-				BF846C44FC0156E7B7A980AF9094D712 /* SaturnStorage.swift in Sources */,
-				A8F09EDB4DC1415C79F21BE0A510E958 /* SaturnTimeMine.swift in Sources */,
-				A93FE0CE62B5E6E6BC69FBFA645BD11A /* SaturnWard.swift in Sources */,
+				393221A43A57816FFA51DE935EEF5D98 /* Pods-Saturn_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50978EC0E12D34A7DD02A9ADBFCC4486 /* Sources */ = {
+		752FE5E524846FA92A2205F9CA1A033B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF07E98499CEE72393969BCD9AE2FF55 /* Pods-Saturn_Example-dummy.m in Sources */,
+				4BD52102236310920473DE739513BAA1 /* KernelTimeMiner.c in Sources */,
+				BB29C2F7833FBB6EA70A36B71294AEEB /* Saturn-dummy.m in Sources */,
+				FAE1AC799A88223540F5ECF37703DF6E /* Saturn.swift in Sources */,
+				829EDDC2EC9E6F594100E98C75173E49 /* SaturnCounter.swift in Sources */,
+				A2B84AA149FA9236F68613E55B6AB8C4 /* SaturnDataObject.swift in Sources */,
+				F5259A96DCD33665F72B909A6E08D54D /* SaturnDateSmithy.swift in Sources */,
+				24B6F33E044AC30057BB4AC5DAC7919E /* SaturnJustice.swift in Sources */,
+				B019D944CB6F75ECC75FE522F3FFA8E1 /* SaturnKeeper.swift in Sources */,
+				D082EDC3303D0FD00FFEB80C3EF18682 /* SaturnPsychic.swift in Sources */,
+				AE065C5730CCB12CAD78567A79687E04 /* SaturnStorage.swift in Sources */,
+				3C2134639B565114BED199340FB239E0 /* SaturnTimeMine.swift in Sources */,
+				1161D31B50386BF967702DF23B9F9109 /* SaturnWard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DEC213DD1BD14D043DCEC807851A378 /* Sources */ = {
+		90EFAB0FD2592F15443E5871C2EB298A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE250887C58ECB8722EBED9FD6F0213E /* Pods-Saturn_Tests-dummy.m in Sources */,
+				E996A3EC60C8AE2736CE5203A390338D /* Pods-Saturn_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E1E259C38ED3E814662D68FD13E4EDA /* PBXTargetDependency */ = {
+		390F7B56AFBF191338C03DF0A702EDB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Saturn;
-			target = 68C1C11EDB8EEEA97ADAAD2087827BE5 /* Saturn */;
-			targetProxy = 09443F7BAE400B9B8985648F1045A0C0 /* PBXContainerItemProxy */;
+			target = 053BF15D3C4C8EA19CBBCF2910EACCD0 /* Saturn */;
+			targetProxy = CACA49D9BE22D456BE500957300FCB5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		111A47D4EC3CAC6F4E69ED9A943FA085 /* Release */ = {
+		30CA66008D4702E446AD7D226FBF7839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE59B2F653A29D399EAFC3FE29276A60 /* Pods-Saturn_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Saturn_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Saturn_Example/Pods-Saturn_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Saturn_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		406F74BEC842088886D76548E520F9B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DD5D1589D6FFBEA4AD3A263795C4B8D /* Pods-Saturn_Tests.release.xcconfig */;
 			buildSettings = {
@@ -441,9 +490,9 @@
 			};
 			name = Release;
 		};
-		423B33FCEB77C1FE4317B9D3E03BA728 /* Debug */ = {
+		51DF756BB9886BCF4FA22901227BD481 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 490BA00DB8AC4E1C79C9D4A8F52F2833 /* Pods-Saturn_Tests.debug.xcconfig */;
+			baseConfigurationReference = 741D821E4A0ACCB49E410212E268D516 /* Saturn.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -456,20 +505,54 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Saturn_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Saturn/Saturn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Saturn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Saturn/Saturn.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Saturn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D4BBC5E2AA649B917AE55C34EF24BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A1C7E66BB7C9766C44C3D92E773E26 /* Pods-Saturn_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Saturn_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Saturn_Tests/Pods-Saturn_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Saturn_Example/Pods-Saturn_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Saturn_Tests;
+				PRODUCT_NAME = Pods_Saturn_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -560,44 +643,9 @@
 			};
 			name = Debug;
 		};
-		C09EF75A35F8D1EE1F6319196F311256 /* Release */ = {
+		D32CE16C1AC38A1A50801060F5D79CFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE59B2F653A29D399EAFC3FE29276A60 /* Pods-Saturn_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Saturn_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Saturn_Example/Pods-Saturn_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Saturn_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D9639D971958E0693554A5E16766DCE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24A1C7E66BB7C9766C44C3D92E773E26 /* Pods-Saturn_Example.debug.xcconfig */;
+			baseConfigurationReference = 490BA00DB8AC4E1C79C9D4A8F52F2833 /* Pods-Saturn_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -610,61 +658,27 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Saturn_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Saturn_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Saturn_Example/Pods-Saturn_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Saturn_Tests/Pods-Saturn_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Saturn_Example;
+				PRODUCT_NAME = Pods_Saturn_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E528F4058C80086DAB6469C672032AC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 741D821E4A0ACCB49E410212E268D516 /* Saturn.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Saturn/Saturn-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Saturn/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Saturn/Saturn.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Saturn;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF32B959F884F465DE836619B0061653 /* Release */ = {
+		FB90FC4694BE95DAA22286130950AB78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 741D821E4A0ACCB49E410212E268D516 /* Saturn.xcconfig */;
 			buildSettings = {
@@ -699,6 +713,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		074C20C7129290FF7D762B92DB2C50D4 /* Build configuration list for PBXNativeTarget "Pods-Saturn_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32CE16C1AC38A1A50801060F5D79CFA /* Debug */,
+				406F74BEC842088886D76548E520F9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -708,29 +731,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFBCC80D4B4A23380810B4D1AA8714EF /* Build configuration list for PBXNativeTarget "Pods-Saturn_Tests" */ = {
+		8A31098CBDC9FC2C252FBF906936AFA5 /* Build configuration list for PBXNativeTarget "Saturn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				423B33FCEB77C1FE4317B9D3E03BA728 /* Debug */,
-				111A47D4EC3CAC6F4E69ED9A943FA085 /* Release */,
+				51DF756BB9886BCF4FA22901227BD481 /* Debug */,
+				FB90FC4694BE95DAA22286130950AB78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2D8BE9FB6E6A91BEEB8A516EF92C797 /* Build configuration list for PBXNativeTarget "Saturn" */ = {
+		B93DA8DFCE453C74C8F1AF12B3E4CEB6 /* Build configuration list for PBXNativeTarget "Pods-Saturn_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E528F4058C80086DAB6469C672032AC2 /* Debug */,
-				FF32B959F884F465DE836619B0061653 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F78C60F65F808AC35C7F7AD355AF29E1 /* Build configuration list for PBXNativeTarget "Pods-Saturn_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9639D971958E0693554A5E16766DCE1 /* Debug */,
-				C09EF75A35F8D1EE1F6319196F311256 /* Release */,
+				8D4BBC5E2AA649B917AE55C34EF24BC1 /* Debug */,
+				30CA66008D4702E446AD7D226FBF7839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -30,7 +30,7 @@ class SaturnPsychic: NSObject {
         // Send HTTP GET Request
         
         // Define server side script URL
-        let URL = "http://www.timeapi.org/utc/now"
+        let URL = "http://api.geonames.org/timezoneJSON?formatted=true&lat=47.01&lng=10.2&username=demo&style=full"
         // Add one parameter
         // Create NSURL Ibject
         let myUrl = NSURL(string: URL)
@@ -40,7 +40,7 @@ class SaturnPsychic: NSObject {
         
         // Set request HTTP method to GET. It could be POST as well
         request.httpMethod = "GET"
-        
+                
         DispatchQueue.global(qos: .background).async {
             // Excute HTTP Request
             let task = URLSession.shared.dataTask(with: request as URLRequest) {

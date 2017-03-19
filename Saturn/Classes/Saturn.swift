@@ -11,7 +11,7 @@ import UIKit
 public class Saturn: NSObject {
     
     /*!
-     * @discussion Call this method in the very beginning of your app's work, apllicationDidFinishLaunchingWithOptions in AppDelegate will be perfect place for it.
+     * @discussion Call this method in the very beginning of your app's work, apllicationDidFinishLaunchingWithOptions in AppDelegate will be perfect place for it. By default time sync is performed every 2,5 min with test server. It is strongly recommended to provide your own server time for syncing in method syncWith.
      * @param ownServerProvided It you will sync Saturn with your server by calling "syncWith" method -> pass true. If you want Saturn to sync with default server -> pass false.
      * @warning Before calling this method, Saturn can't properly count time for you
      */
